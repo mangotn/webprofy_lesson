@@ -106,23 +106,12 @@ color: red;
 .content h3.product-title span { color: red; }
 
 
-header
-{float: left;}
 
-section, header, div
+@-webkit-keyframes myanimation
 {
-	border: 1px solid black;
+	0% {width:100px;}
+	40%{ width:100px;}
+	30%{ width:100px;}
+	
 }
-
-section
-{
-	margin: auto;
-}
-
-header
-{
-	width: 300px;
-}
-
-catalog-item__gallery {width: 30%;float: left;margin-bottom:20px;}
 
