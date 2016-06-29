@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "utf-8"/>
+
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+
+</head>
+
+<body>
+
+  
+  <section class = "header">section
+		   <header>header
+		       <div class = "div1">див</div>
+		   </header>
+   
+		   <div class = "header__content">header__content
+		   <div class = "div2">див2</div>
+          </header>
+		  
+		  <a href = "XPath">link</a>
+   
+  </section>
+
+
+  <div id="elem" about="Elephant"></div>
+
+  <script>
+ 
+var a = 10;
+
+function bur(b)
+	{
+	
+	
+	this.something = 4;
+	
+  return  function(){
+       return   b + a + this.something;
+  }
+	  
+			 
+	}
+
+
+alert (bur(10)(20));
+
+
+
+
+
+
+
+ 
+  </script>
+
+  <img src = "" alt ="alt" style = "width:40px; height: 40px" title = "title">
+  
+  
+<form action="" method="post">
+    Имя:  <input type="text" name="personal[name]" /><br />
+    Email: <input type="text" name="personal[email]" /><br />
+    Пиво: <br />
+    <select multiple name="beer[]">
+        <option value="warthog">Warthog</option>
+        <option value="guinness">Guinness</option>
+        <option value="stuttgarter">Stuttgarter Schwabenbräu</option>
+    </select><br />
+    <input type="submit" value="Отправь меня!" />
+</form>
+  <?php
+if ($_POST) {
+    echo '<pre>';
+    echo htmlspecialchars(print_r($_POST, true));
+    echo '</pre>';
+}
+?>
+  
+
+
+
+
+
+</body>
+</html>
