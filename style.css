@@ -110,7 +110,7 @@ color: red;
 @-webkit-keyframes myanimation
 {
 	0% {width:100px;}
-	40%{ width:100px;}
+	580%{ width:100px;} test25
 	30%{ width:100px;}
 	
 }
